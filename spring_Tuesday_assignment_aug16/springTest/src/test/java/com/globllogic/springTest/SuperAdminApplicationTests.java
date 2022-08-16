@@ -1,10 +1,10 @@
-package com.globallogic.springboot;
+package com.globllogic.springTest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootThymeleafCrudWebAppApplicationTests {
+class SuperAdminApplicationTests {
 
 	@Test
 	void contextLoads() {
