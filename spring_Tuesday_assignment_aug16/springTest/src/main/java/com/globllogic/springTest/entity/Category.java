@@ -12,23 +12,23 @@ import javax.persistence.Table;
 public class Category {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-int cid;
+int cus_id;
 	@Column
 String cname;
 	public Category(int cid, String cname) {
 		super();
-		this.cid = cid;
+		this.cus_id = cid;
 		this.cname = cname;
 	}
 	public Category() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public int getCid() {
-		return cid;
+		return cus_id;
 	}
 	public void setCid(int cid) {
-		this.cid = cid;
+		this.cus_id = cid;
 	}
 	public String getCname() {
 		return cname;
@@ -38,7 +38,7 @@ String cname;
 	}
 	@Override
 	public String toString() {
-		return "Category [cid=" + cid + ", cname=" + cname + "]";
+		return "Category [cid=" + cus_id + ", cname=" + cname + "]";
 	}
 
 }
